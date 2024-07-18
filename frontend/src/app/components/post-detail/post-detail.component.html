@@ -1,4 +1,16 @@
+<!--
+    <h3><a href="/posts/{{ post?.id }}">{{ post?.title }}</a></h3>
+    <p>by {{ post?.firstName }} {{ post?.lastName }} on {{ post?.dateCreated }}</p>
+    <p>{{ post?.body }}</p>
+-->
 
-<h3><a href="/posts/{{ post?.id}}"> {{ post?.title }}</a></h3>
-<p>by {{ post?.firstName }} {{ post?.lastName}}; on {{ post?.dateCreated}}</p>
-<p> {{ post?.body}}</p>
+<!-- list-posts.component.html -->
+  
+  <div class="post-list">
+    <div class="post-card" >
+      <h3><a href="/posts/{{ post?.id }}">{{ post?.title }}</a></h3>
+      <p class="post-meta">by {{ post?.firstName }} {{ post?.lastName }} on {{ post?.dateCreated }}</p>
+      <p class="post-body">{{ post?.body }}</p>
+    </div>
+  </div>
+  

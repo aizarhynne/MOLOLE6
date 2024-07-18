@@ -1,0 +1,37 @@
+/* styles.scss */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #577492;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navbar-brand {
+      color: white;
+      font-size: 1.5rem;
+      text-decoration: none;
+      &:hover {
+        color: #dcdcdc;
+      }
+    }
+    .navbar-nav {
+      display: flex;
+      gap: 1rem;
+      .nav-item {
+        .nav-link {
+          color: white;
+          text-decoration: none;
+          &:hover {
+            color: #dcdcdc;
+          }
+        }
+      }
+    }
+  }
+  
