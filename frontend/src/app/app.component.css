@@ -1,3 +1,5 @@
+/*app.component.css*/
+
 /* styles.scss */
 body {
     font-family: Arial, sans-serif;
@@ -17,7 +19,7 @@ body {
       font-size: 1.5rem;
       text-decoration: none;
       &:hover {
-        color: #dcdcdc;
+        color: #3c1bbf;
       }
     }
     .navbar-nav {
@@ -25,7 +27,7 @@ body {
       gap: 1rem;
       .nav-item {
         .nav-link {
-          color: white;
+          color: #6219bb;
           text-decoration: none;
           &:hover {
             color: #dcdcdc;
